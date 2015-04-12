@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "file": "main.css",
+  "sources": [
+    "main.scss",
+    "_settings.scss",
+    "_functions.scss",
+    "_mixins.scss",
+    "_base.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AIgBA;EACI,AAAY;;EACZ,AAAa;;EACb,AAAkB;EAClB,AHCoB;EGApB,AAAY;;EACZ,AAAY;;;;;;;AAOhB;EACI,AAAiB;EACjB,AHPoB;;EGSxB,AAAC,AAAQ,AAAC;IAEF,AAAiB;;;;;;AAQzB,AAAI;ED9BA,ACgCmB;ED/BnB,AAAY;EAGR,AAAa;;;AC+BrB,AAAI;EDnCA,ACqCmB;EDpCnB,AAAY;EAGR,AAAa;;;ACoCrB,AAAI;EDxCA,AC0CmB;EDzCnB,AAAY;EAGR,AAAa;;;ACyCrB,AAAI;ED7CA,AC+CmB;ED9CnB,AAAY;EAGR,AAAa;;;AC8CrB,AAAI;EDlDA,ACoDmB;EDnDnB,AAAY;EAGR,AAAa;;;ACmDrB,AAAI;EDvDA,ACyDmB;EDxDnB,AAAY;EAGR,AAAa",
+  "names": []
+}

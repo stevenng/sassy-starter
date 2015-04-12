@@ -1,0 +1,35 @@
+/*------------------------------*\
+    #SETTINGS
+\*------------------------------*/
+
+
+/**
+ * Globals
+ */
+
+$base-font-size:    16px;
+$base-line-height:  24px;
+
+// Reassign some internal variables.
+$base-spacing-unit: $base-line-height;
+
+
+/**
+ * Colors
+ */
+
+// Color pallete
+$black:                 #111;
+$gray:                  #aaa;
+$silver:                #ddd;
+$blue:                  #0074D9;
+$teal:                  #39CCCC;
+$orange:                #FF851B;
+
+// Text
+$color-text:            $black;
+$color-links:           $blue;
+
+// Buttons
+$color-btn-text:        #fff;
+$color-btn-background:  $teal;

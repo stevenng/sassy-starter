@@ -1,0 +1,32 @@
+/*------------------------------*\
+    #PROJECT NAME
+\*------------------------------*/
+
+
+/**
+ * Master SASS file for project.
+ */
+
+
+/**
+ *  CONTENTS
+ *
+ *  SETTINGS........ global variables and config.
+ *  FUNCTIONS....... useful sass functions.
+ *  MIXINS.......... reusable grouped sass styles.
+ *  BASE............ default element styles, headings, links, type.
+ *  NAV............. navigation components, menu, breadcrumb.
+ *  LAYOUTS......... layout styles, header, sidebar, footer.
+ *  MODULES......... custom components, carousel, modals, grids.
+ *  THEMES.......... alternate styles, colors and typography.
+ */
+
+
+@import "settings";
+@import "functions";
+@import "mixins";
+@import "base";
+@import "nav";
+@import "layouts";
+@import "modules";
+@import "themes";
