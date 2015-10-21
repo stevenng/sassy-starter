@@ -1,0 +1,26 @@
+.wrapper {
+  @include outer-container;
+}
+header {
+  @include span-columns(12);
+  background-color: darkseagreen;
+}
+.main-content {
+  @include span-columns(12);
+  @include media($medium-screen-up) {
+    background-color: gold;
+    @include span-columns(8 of 12);
+  }
+}
+.extra-content {
+  @include span-columns(12);
+  @include media($medium-screen-up) {
+    background-color: coral;
+    @include span-columns(4 of 12);
+    @include omega;
+  }
+}
+footer {
+  @include span-columns(12);
+  background-color: cadetblue;
+}
