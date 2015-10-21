@@ -1,32 +1,54 @@
-/*------------------------------*\
-    #PROJECT NAME
-\*------------------------------*/
+@charset "utf-8";
+
+// Styling Starter Kit
+//
+// A starter kit for Sass projects borrowing naming conventions with BEM,
+// principles from OOCSS, categorization based from SMACSS,
+// with optional Bourbon support.
 
 
-/**
- * Master SASS file for project.
- */
+// Contents:
+
+// 01. Utilities...... Bourbon, Variables, Functions, Mixins
+// 02. Vendor......... third-party dependancies
+// 03. Base........... Normalize, default elements
+// 04. Layout......... layout template, grid structure
+// 05. Modules........ modules, background, colors, typography
+// 06. States......... active, mobile, print
+// 07. Shame.......... because hacks happen
 
 
-/**
- *  CONTENTS
- *
- *  SETTINGS........ global variables and config.
- *  FUNCTIONS....... useful sass functions.
- *  MIXINS.......... reusable grouped sass styles.
- *  BASE............ default element styles, headings, links, type.
- *  NAV............. navigation components, menu, breadcrumb.
- *  LAYOUTS......... layout styles, header, sidebar, footer.
- *  MODULES......... custom components, carousel, modals, grids.
- *  THEMES.......... alternate styles, colors and typography.
- */
+// ==========================================================================
+// $Utilities
+// ==========================================================================
+@import "utilities/index";
 
+// ==========================================================================
+// $Vendor
+// ==========================================================================
+@import 'utilities/vendor';
 
-@import "settings";
-@import "functions";
-@import "mixins";
-@import "base";
-@import "nav";
-@import "layouts";
-@import "modules";
-@import "themes/default";
+// ==========================================================================
+// $Base
+// ==========================================================================
+@import 'base/index';
+
+// ==========================================================================
+// $Layout
+// ==========================================================================
+@import 'layouts/index';
+
+// ==========================================================================
+// $Modules
+// ==========================================================================
+@import 'modules/index';
+
+// ==========================================================================
+// $States
+// ==========================================================================
+@import 'states/index';
+
+// ==========================================================================
+// $Shame
+// ==========================================================================
+@import 'shame';
